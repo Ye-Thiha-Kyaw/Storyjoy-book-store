@@ -1,0 +1,73 @@
+
+$carousel-indicator-width:           10px;
+$carousel-indicator-height:          10px;
+$carousel-indicator-hit-area-height: 30px;
+$carousel-indicator-spacer:          3px;
+$carousel-indicator-opacity:         .3;
+$carousel-indicator-bg :            white!important;
+$carousel-indicator-active-opacity:  1;
+$carousel-indicator-transition:      opacity .6s ease;
+$carousel-white-indicator-active:  white;
+$carousel-white-indicator-bg-active: white;
+$carousel-indicator-opacity-bg: 0.1;
+
+
+.carousel-indicators button{
+    height: 5px !important;
+    width: 5px !important;
+    // margin: 1 1px !important;
+    border-radius: 50%;
+    
+    background: black !important;
+    border: solid 2px white !important;
+    
+   
+}
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/variables";
+
+// Custom.scss
+// Option B: Include parts of Bootstrap
+
+// 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)
+@import "../node_modules/bootstrap/scss/functions";
+
+// 2. Include any default variable overrides here
+
+// 3. Include remainder of required Bootstrap stylesheets
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+
+// 4. Include any optional Bootstrap CSS as needed
+@import "../node_modules/bootstrap/scss/utilities";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/images";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+@import "../node_modules/bootstrap/scss/helpers";
+
+// 5. Optionally include utilities API last to generate classes based on the Sass map in `_utilities.scss`
+@import "../node_modules/bootstrap/scss/utilities/api";
+
+// 6. Add additional custom code here
+
+// Required
+@import "../node_modules/bootstrap/scss/functions";
+
+// Default variable overrides
+
+
+// Required
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";
+
+// Optional Bootstrap components here
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+// etc
